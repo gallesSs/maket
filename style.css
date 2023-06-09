@@ -1,0 +1,379 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+    background-color: #efefef;
+    z-index: 10;
+}
+
+.menu,.menu2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.item-link {
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.item {
+    padding: 15px 0;
+}
+
+.logo-text {
+    color: #F13C6E;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.1em;
+}
+
+.beauty {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.callback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.callback > a {
+    color: #000;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.callback > button {
+    border-radius: 40px;
+    border: 2px solid #F13C6E;
+    padding: 12px 56px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff ;
+    letter-spacing: 0.05;
+}
+
+.menu2 > .item {
+    padding: 0 0;
+}
+
+.menu2 {
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.menu2 > .item > .item-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sale {
+    background-image: url(./img/Rectangle\ 2.png);
+    height: 604px;
+}
+
+.sale-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    padding: 192px 405px;
+    align-content: center;
+    width: 308px;
+    height: 219px;
+}
+
+.sale-text > span {
+    color: #ffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.sale-text > p {
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sale-text > button { 
+    background-color: #F13C6E;
+    font-size: 14px;
+    border: 2px solid #ffff;
+    color: #fff;
+    padding: 12px 67px;
+    border-radius: 40px;
+    width: 170px;
+}
+
+.line1 {
+    color: #EFEFEF;
+}
+
+.recently > ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #EFEFEF;
+    padding: 0;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.card > img {
+    padding: 25px 65px 20px;
+}
+
+.card > p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 78%;
+    text-align: center;
+    line-height: 140.6%;
+}
+
+.card > span {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: 0.05;
+    padding: 20px;
+}
+
+h2 {
+    background-color: #EFEFEF;
+    padding: 80px 405px 38px;
+}
+
+.recently {
+    background-color: #EFEFEF;
+}
+
+.card > button {
+    border: 0;
+    background-color: #F13C6E;
+    color: #fff;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
+    font-size: 14px;
+    letter-spacing: 0.05;
+    margin-bottom: 25px;
+}
+
+.gifts {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #EFEFEF;
+}
+
+.envelope-item {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #F13C6E;
+    width: 540px;
+    height: 212px;
+}
+
+.envelope-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.envelope-text > span {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 35px 0 25px;
+    line-height: 17px;
+}
+
+.envelope-text > p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 65%;
+    padding-bottom: 25px;
+}
+
+.envelope-text > input {
+    width: 185px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 0;
+    padding: 0 25px;
+}
+
+.envelope {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.truck-item {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #F13C6E;
+    width: 540px;
+    height: 212px;
+}
+
+.truck-text {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.truck-text > span {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 35px 0 25px;
+    line-height: 17px;
+}
+
+.truck-text > p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 65%;
+    padding-bottom: 25px;
+}
+
+.truck-text > button {
+    color: #fff;
+    width: 170px;
+    height: 35px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    padding: 0 25px;
+    background-color: #F13C6E;
+}
+
+.truck {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.imp-block {
+    background-color: #EFEFEF;
+    padding-top: 99px;
+
+}
+
+.imp-ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    background-color: #fff;
+}
+
+.imp-block {
+    display: flex;
+    justify-content: center;
+    background-color: #EFEFEF;
+}
+
+.imp {
+    padding: 35px 61px;
+    border: 1px solid #EFEFEF;
+}
+
+.viewed > ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #EFEFEF;
+    padding: 0;
+}
+
+.viewed {
+    background-color: #EFEFEF;
+    padding-bottom: 80px;
+}
+
+.categories > ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+.categories {
+    padding-bottom: 60px;
+}
+
+.list-categories > span {
+    font-weight: 700;
+    font-size: 16px;
+    width: 52%;
+    display: flex;
+}
+
+.line2 {
+    color: #EFEFEF;
+    margin: 30px 0 25px;
+    width: 255px;
+}
+
+.list-categories > p {
+    padding: 10px 0;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.info {
+    padding-top: 37px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 36px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer {
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+.footer > p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #828282;
+}
